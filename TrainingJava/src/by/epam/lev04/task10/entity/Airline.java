@@ -1,9 +1,9 @@
-package by.epam.lev04.task10.airline01;
+package by.epam.lev04.task10.entity;
 
 import java.util.Objects;
 
-
 public class Airline {
+
 	private String destination;
 	private int flightNumber;
 	private String aircraftType;
@@ -88,4 +88,5 @@ public class Airline {
 	}
 
 }
+
 

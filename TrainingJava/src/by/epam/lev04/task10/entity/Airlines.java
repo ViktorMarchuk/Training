@@ -1,8 +1,6 @@
-package by.epam.lev04.task10.airlines;
+package by.epam.lev04.task10.entity;
 
 import java.util.Objects;
-
-
 
 public class Airlines {
 	private String destination;
@@ -77,6 +75,7 @@ public class Airlines {
 	}
 
 }
+
 
 
 

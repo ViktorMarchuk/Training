@@ -1,6 +1,6 @@
 package by.epam.lev04.task10.main;
 
-import by.epam.lev04.task10.airlines.Airlines;
+import by.epam.lev04.task10.entity.Airlines;
 import by.epam.lev04.task10.logic.Logic;
 
 public class Main {

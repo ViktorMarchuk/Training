@@ -2,12 +2,9 @@ package by.epam.lev04.task10.logic;
 
 import java.util.Scanner;
 
-import by.epam.lev04.task10.airlines.Airlines;
-
-
+import by.epam.lev04.task10.entity.Airlines;
 
 public class Logic {
-
 	public void getList(Airlines[] airline) {
 		for (int i = 0; i < airline.length; i++) {
 			System.out.println("Destination:" + airline[i].getDestination() + " // Day of Week:"
@@ -66,7 +63,7 @@ public class Logic {
 		double n = getScan().nextDouble();
 		boolean flag = true;
 		for (int i = 0; i < airline.length; i++) {
-			if (airline[i].getDaysOfWeek().toLowerCase().contains(m) && airline[i].getDepartureTime()>n) {
+			if (airline[i].getDaysOfWeek().toLowerCase().contains(m) && airline[i].getDepartureTime() > n) {
 				System.out.println("Destination:" + airline[i].getDestination() + " // Day of Week:"
 						+ airline[i].getDaysOfWeek() + " // Depature time:" + airline[i].getDepartureTime() + " // "
 						+ airline[i].getAddInfoAircraft());
@@ -78,5 +75,3 @@ public class Logic {
 		}
 	}
 }
-
-
